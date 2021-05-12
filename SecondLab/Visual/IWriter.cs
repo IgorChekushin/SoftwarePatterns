@@ -8,7 +8,7 @@ namespace DrawingTool
 {
     public interface IWriter
     {
-        void DrawSegment(IPoint p);
+        void DrawSegment(IPoint start, IPoint finish);
         void DrawStart(IPoint p);
         void DrawEnd(IPoint p);
     }
